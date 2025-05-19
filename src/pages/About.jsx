@@ -8,7 +8,15 @@ const skills = [
 ];
 
 const About = () => (
-  <Box>
+    <Box>
+    <Box sx={{ display: 'flex', justifyContent: 'center', mb: 3 }}>
+      <Avatar 
+        alt="Aayushma Pradhan" 
+        src="/aayushma.jpg" 
+        sx={{ width: 120, height: 120 }}
+      />
+    </Box>
+    
     <Typography variant="h5" gutterBottom>About Me</Typography>
     <Typography variant="body1" paragraph>
       I'm Aayushma Pradhan, a Computer Science major and Business minor at the University of Virginia, graduating in May 2026. 
